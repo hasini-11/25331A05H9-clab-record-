@@ -1,0 +1,10 @@
+#include <stdio.h>
+int main() {
+    int a = 10;
+    int *p = &a;
+    printf("Value = %d\n", *p);
+    p++;
+    printf("Pointer after increment = %u", p);
+    return 0;
+}
+
